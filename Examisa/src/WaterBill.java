@@ -4,6 +4,8 @@ public class WaterBill {
 	int num_units;
 	double unit_cost;
 	double bill_amt;
+	double discount;
+	
 	
 	WaterBill(String Acct_num,int num_units, double unit_cost)
 	{
